@@ -79,11 +79,6 @@ Precompiled binaries are provided in the [`firmware_board`](firmware_board) dire
 
 - **Orginal PX-Autopilot/**
 
-
-- **Hardware/**
-  - **Arduino/**
-  Contains Arduino sketches for the wheel encoder and a test I2C encoder reader.
-
 - **firmware_board/**
   **Board:** Precompiled binaries for different PX4 targets for quick flashing via QGroundControl.
   - **Hardware/**

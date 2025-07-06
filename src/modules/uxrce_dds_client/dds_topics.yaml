@@ -77,6 +77,12 @@ publications:
   - topic: /fmu/out/wheel_encoders
     type: px4_msgs::msg::WheelEncoders
 
+  - topic: /fmu/out/actuator_motors
+    type: px4_msgs::msg::ActuatorMotors
+
+  - topic: /fmu/out/actuator_servos
+    type: px4_msgs::msg::ActuatorServos
+
 # Create uORB::Publication
 subscriptions:
   - topic: /fmu/in/register_ext_component_request

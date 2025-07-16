@@ -6,6 +6,7 @@ uint32 pulses_per_rev    # Number of pulses per revolution for each wheel
 
 # uint64 timestamp			# time since system start (microseconds)
 
-# # Two wheels: 0 right, 1 left
-# float32[2] wheel_speed # [rad/s]
-# float32[2] wheel_angle # [rad]
+# # uint64 timestamp
+# # int64[2] encoder_position
+# # int32[2] speed
+# # uint32[2] pulses_per_rev
